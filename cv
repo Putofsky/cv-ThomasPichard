@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV – Thomas Pichard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+      flex-wrap: wrap;
+    }
+
+    .left {
+      background-color: #1e1e1e;
+      flex: 1;
+      min-width: 250px;
+      padding: 2rem;
+    }
+
+    .right {
+      flex: 2;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0;
+      color: white;
+    }
+
+    h2 {
+      font-size: 1rem;
+      letter-spacing: 0.2em;
+      color: #aaaaaa;
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      margin-top: 2rem;
+      font-weight: 500;
+      position: relative;
+      display: inline-block;
+    }
+
+    .section-title::after {
+      content: "";
+      display: block;
+      height: 3px;
+      width: 40px;
+      background-color: #5a5a5a;
+      margin-top: 5px;
+    }
+
+    .info-block {
+      margin-bottom: 1.5rem;
+    }
+
+    .bold {
+      font-weight: 700;
+      color: #ffffff;
+    }
+
+    ul {
+      padding-left: 1rem;
+    }
+
+    a {
+      color: #9ecbff;
+      text-decoration: none;
+    }
+
+    .contact-icon {
+      margin-right: 0.5rem;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <!-- Colonne gauche -->
+  <div class="left">
+    <h2>Profil</h2>
+    <p>
+      Rigoureux et autonome, passionné par les mathématiques et l’informatique, je suis prêt à enrichir mon expérience professionnelle et relever de nouveaux défis.
+    </p>
+
+    <h2>Contact</h2>
+    <p><span class="contact-icon">📍</span>262 rue de Suzon, Talence</p>
+    <p><span class="contact-icon">✉️</span><a href="mailto:thomas.pichard@etu.u-bordeaux.fr">thomas.pichard@etu.u-bordeaux.fr</a></p>
+    <p><span class="contact-icon">📱</span>06 09 39 15 02</p>
+    <p><span class="contact-icon">🚗</span>Permis B</p>
+
+    <h2>Centres d’intérêt</h2>
+    <p><strong>Sports :</strong> Surf, Musculation</p>
+    <p><strong>Voyages :</strong> Japon, Italie</p>
+  </div>
+
+  <!-- Colonne droite -->
+  <div class="right">
+    <h1>Thomas Pichard</h1>
+    <h2>Alternance</h2>
+
+    <div class="info-block">
+      <span class="section-title">Formation</span>
+      <p><strong>2020</strong> – Bac S mention Bien</p>
+      <p><strong>2024</strong> – Licence d’ingénierie mathématique</p>
+      <p><strong>2025</strong> – Master 1 : Image, optimisation des données, machine learning</p>
+    </div>
+
+    <div class="info-block">
+      <span class="section-title">Expériences</span>
+      <p><strong>2020 – 2022</strong> – Macdo</p>
+      <p><strong>Équipier polyvalent en restauration rapide</strong></p>
+      <ul>
+        <li>Travail efficace dans un environnement dynamique</li>
+        <li>Bonne communication en équipe</li>
+        <li>Respect des normes d’hygiène</li>
+        <li>Accueil client et gestion des besoins</li>
+      </ul>
+    </div>
+
+    <div class="info-block">
+      <span class="section-title">Compétences</span>
+      <p><strong>Langues :</strong> Anglais – Bon niveau (sans certification)</p>
+      <p><strong>Programmation :</strong> Python, C++, R</p>
+      <p><strong>Mathématiques :</strong> Statistiques, ÉDP, Probabilités</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
